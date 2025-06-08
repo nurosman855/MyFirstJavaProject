@@ -11,7 +11,7 @@ public class TextProgram {
         String rad;
 
         while(true) { // Startar en evig loop
-            System.out.println("Skriv in text (Avsluta med order ): ");
+            System.out.println("Skriv in text (Avsluta med ordet Stop ): ");
             rad = scan.nextLine(); // Läser in en rad text
             if (rad.equalsIgnoreCase("stop")) { ///  kolla när användare skriver stop.
                 break; // avslut loopen.
